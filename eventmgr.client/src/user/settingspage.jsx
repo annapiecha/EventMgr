@@ -12,6 +12,7 @@ export const Settings = () => {
         setShow(true);
     };
 
+
     const handleCardClick = () => {
         setSelectedNotification();
         setSmShow(true);

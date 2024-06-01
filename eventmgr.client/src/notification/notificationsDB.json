@@ -1,0 +1,62 @@
+[
+  {
+    "img_src": "/examples/audio.jpg",
+    "title": "Audio-visual equipment course",
+    "description": "Become an expert in handling audio-visual equipment with our intensive course.",
+    "full_description": "Date: Every Saturday starting June 1st, 2024\nTime: 9:00 AM - 4:00 PM\nLocation: EventTech Institute, 123 Main Street, Cityville\nAudience: Event planners, technicians, and anyone interested in mastering audio-visual equipment.\nInstructors: Experienced professionals with years of industry experience will guide you through hands-on sessions and provide valuable insights."
+  },
+  {
+    "img_src": "/examples/tickets.jpg",
+    "title": "Discounts on concert tickets",
+    "description": "Seize the opportunity to enjoy exclusive perks such as discounted concert tickets.",
+    "full_description": "Date: Ongoing offer\nLocation: Online and participating concert venues nationwide\nAudience: Music enthusiasts of all ages\nOffer Details: Enjoy up to 50% off on select concerts and events. Limited availability, so grab your tickets now!"
+  },
+  {
+    "img_src": "/examples/open.jpg",
+    "title": "Change of opening hours",
+    "description": "Our club's opening hours have been adjusted, please take note.",
+    "full_description": ""
+  },
+  {
+    "img_src": "/examples/workshop.jpg",
+    "title": "Photography Workshop",
+    "description": "Join our hands-on photography workshop and learn from industry experts.",
+    "full_description": "Date: May 25th, 2024\nTime: 10:00 AM - 4:00 PM\nLocation: City Art Center, 456 Oak Street, Townsville\nAudience: Photography enthusiasts of all skill levels\nWorkshop Topics: Composition techniques, lighting essentials, post-processing tricks, and more."
+  },
+  {
+    "img_src": "/examples/cooking.jpg",
+    "title": "Cooking Masterclass",
+    "description": "Enhance your culinary skills with our professional cooking masterclass.",
+    "full_description": "Date: June 10th, 2024\nTime: 6:00 PM - 9:00 PM\nLocation: Chef's Kitchen Studio, 789 Maple Avenue, Culinary City\nAudience: Cooking enthusiasts looking to elevate their skills\nMasterclass Highlights: Learn from renowned chefs, discover secret recipes, and master advanced cooking techniques."
+  },
+  {
+    "img_src": "/examples/fitness.jpg",
+    "title": "Fitness Bootcamp",
+    "description": "Get in shape with our intensive fitness bootcamp designed for all levels.",
+    "full_description": "Date: Every Monday, Wednesday, and Friday\nTime: 6:30 AM - 8:00 AM\nLocation: FitZone Gym, 101 Pine Street, Fitville\nAudience: Fitness enthusiasts seeking a challenging workout\nTrainers: Certified fitness instructors will lead high-energy sessions focusing on strength, endurance, and overall wellness."
+  },
+  {
+    "img_src": "/examples/art.jpg",
+    "title": "Art Exhibition",
+    "description": "Experience the creativity of local artists at our upcoming art exhibition.",
+    "full_description": "Date: July 1st - July 15th, 2024\nTime: 10:00 AM - 6:00 PM\nLocation: City Gallery, 789 Elm Street, Artsville\nAudience: Art lovers and collectors\nExhibitors: Featuring works by emerging and established artists across various mediums, including painting, sculpture, and photography."
+  },
+  {
+    "img_src": "/examples/tech.jpg",
+    "title": "Tech Conference",
+    "description": "Stay ahead in the tech industry by attending our annual tech conference.",
+    "full_description": "Date: September 20th - September 22nd, 2024\nLocation: TechExpo Center, 321 Tech Boulevard, Technocity\nAudience: Tech professionals, entrepreneurs, and enthusiasts\nConference Agenda: Keynote speeches, panel discussions, hands-on workshops, and networking opportunities with industry leaders."
+  },
+  {
+    "img_src": "/examples/travel.jpg",
+    "title": "Travel Deals",
+    "description": "Explore the world with our exclusive travel deals and packages.",
+    "full_description": "Date: Ongoing\nLocation: Online\nAudience: Travelers looking for great deals on vacations and getaways\nDeal Highlights: Savings on flights, hotels, and vacation packages to top destinations worldwide. Flexible booking options available."
+  },
+  {
+    "img_src": "/examples/music.jpg",
+    "title": "Music Festival",
+    "description": "Join us for a weekend of live music, food, and fun at our annual music festival.",
+    "full_description": "Date: August 10th - August 12th, 2024\nLocation: Riverside Park, 123 River Road, Music City\nAudience: Music lovers of all ages\nFestival Attractions: Multiple stages featuring a diverse lineup of artists, food vendors offering delicious treats, interactive activities, and more."
+  }
+]

@@ -1,0 +1,47 @@
+﻿.rbc-toolbar button {
+    color: #1aa3a3;
+}
+
+.rbc-toolbar button.rbc-active,
+.rbc-toolbar button.rbc-active:hover,
+.rbc-toolbar button.rbc-active:focus,
+.rbc-toolbar button:active,
+.rbc-toolbar button:active:hover,
+.rbc-toolbar button:active:focus,
+.rbc-toolbar button:focus,
+.rbc-toolbar button:hover,
+.rbc-header.rbc-today {
+    background: rgba(23,146,146,.8);
+    color: white;
+}
+
+
+.rbc-date-cell.rbc-now.rbc-current {
+    color: white;
+}
+
+.rbc-day-slot.rbc-time-column.rbc-now.rbc-today {
+    background: rgba(23,146,146,.8);
+    color: white;
+}
+
+.rbc-day-bg.rbc-today {
+    background: rgba(23,146,146,.8);
+    color: white;
+}
+
+.rbc-day-bg.rbc-off-range-bg {
+    background: #222b37;
+}
+
+.custom-datepicker .react-datepicker__navigation {
+    display: none; /* Ukryj przyciski poprzedniego i następnego miesiąca */
+}
+
+.custom-datepicker .react-datepicker__month-container {
+    display: none; /* Ukryj rozwijane pole z miesiącem */
+}
+
+.custom-datepicker .react-datepicker__time-container {
+    width: 100%; /* Ustaw szerokość kontenera czasu na 100% */
+}

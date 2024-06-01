@@ -1,0 +1,292 @@
+[
+  {
+    "Company/Team Name": "Catering Excellence",
+    "Company Address": "123 Main Street",
+    "Email Address": "cateringex@example.com",
+    "Phone Number": "555-123-4567",
+    "Area of Expertise": "Catering",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Specializes in gourmet catering for events."
+  },
+  {
+    "Company/Team Name": "SoundWave Productions",
+    "Company Address": "456 Oak Avenue",
+    "Email Address": "info@soundwavepro.com",
+    "Phone Number": "555-987-6543",
+    "Area of Expertise": "Audio Services",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Potential",
+    "Notes": "Provides professional sound and lighting services."
+  },
+  {
+    "Company/Team Name": "SecureGuard Solutions",
+    "Company Address": "789 Elm Street",
+    "Email Address": "contact@secureguard.com",
+    "Phone Number": "555-456-7890",
+    "Area of Expertise": "Security",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Offers security personnel for event security needs."
+  },
+  {
+    "Company/Team Name": "The Floral Experience",
+    "Company Address": "321 Maple Drive",
+    "Email Address": "flowers@floralexample.com",
+    "Phone Number": "555-789-0123",
+    "Area of Expertise": "Floral Arrangements",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Creates stunning floral arrangements for events."
+  },
+  {
+    "Company/Team Name": "Delightful Decorations",
+    "Company Address": "555 Pine Lane",
+    "Email Address": "info@delightfuldecor.com",
+    "Phone Number": "555-234-5678",
+    "Area of Expertise": "Event Decor",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Specializes in event decoration services."
+  },
+  {
+    "Company/Team Name": "Tasty Treats Bakery",
+    "Company Address": "777 Cedar Road",
+    "Email Address": "info@tastytreats.com",
+    "Phone Number": "555-345-6789",
+    "Area of Expertise": "Bakery",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Provides delicious baked goods for events."
+  },
+  {
+    "Company/Team Name": "Smooth Sounds DJ Services",
+    "Company Address": "999 Walnut Street",
+    "Email Address": "smoothsounds@example.com",
+    "Phone Number": "555-876-5432",
+    "Area of Expertise": "DJ Services",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Offers professional DJ services for events."
+  },
+  {
+    "Company/Team Name": "Photogenic Moments Photography",
+    "Company Address": "888 Birch Boulevard",
+    "Email Address": "info@photogenicmoments.com",
+    "Phone Number": "555-234-5678",
+    "Area of Expertise": "Photography",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Potential",
+    "Notes": "Specializes in capturing memorable moments at events."
+  },
+  {
+    "Company/Team Name": "Elite Entertainment Agency",
+    "Company Address": "1010 Oakwood Avenue",
+    "Email Address": "contact@eliteentertainment.com",
+    "Phone Number": "555-765-4321",
+    "Area of Expertise": "Entertainment",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Offers a wide range of entertainment options for events."
+  },
+  {
+    "Company/Team Name": "Creative Cakes by Sarah",
+    "Company Address": "1313 Willow Lane",
+    "Email Address": "sarahcakes@example.com",
+    "Phone Number": "555-543-2109",
+    "Area of Expertise": "Cake Design",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Potential",
+    "Notes": "Creates custom-designed cakes for special events."
+  },
+  {
+    "Company/Team Name": "Sonic Boom Audiovisuals",
+    "Company Address": "1515 Spruce Street",
+    "Email Address": "info@sonicboomav.com",
+    "Phone Number": "555-210-9876",
+    "Area of Expertise": "Audiovisual Services",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Provides audiovisual equipment and services for events."
+  },
+  {
+    "Company/Team Name": "Top Tier Talent Management",
+    "Company Address": "1717 Cedar Avenue",
+    "Email Address": "info@toptiermanagement.com",
+    "Phone Number": "555-678-9012",
+    "Area of Expertise": "Talent Management",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Represents top talent for event bookings."
+  },
+  {
+    "Company/Team Name": "Lavish Limousine Service",
+    "Company Address": "1919 Magnolia Drive",
+    "Email Address": "info@lavishlimo.com",
+    "Phone Number": "555-456-1234",
+    "Area of Expertise": "Limousine Rental",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Offers luxurious limousine rentals for events."
+  },
+  {
+    "Company/Team Name": "Flawless Face Makeup Artists",
+    "Company Address": "2121 Rosewood Lane",
+    "Email Address": "info@flawlessface.com",
+    "Phone Number": "555-789-0123",
+    "Area of Expertise": "Makeup Artistry",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Provides professional makeup services for events."
+  },
+  {
+    "Company/Team Name": "Sizzle Catering Co.",
+    "Company Address": "2323 Elm Street",
+    "Email Address": "info@sizzlecatering.com",
+    "Phone Number": "555-321-0987",
+    "Area of Expertise": "Catering",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Specializes in gourmet barbecue catering for events."
+  },
+  {
+    "Company/Team Name": "Memorable Moments Videography",
+    "Company Address": "2525 Maple Avenue",
+    "Email Address": "info@memorablevids.com",
+    "Phone Number": "555-210-9876",
+    "Area of Expertise": "Videography",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Potential",
+    "Notes": "Captures unforgettable moments on film at events."
+  },
+  {
+    "Company/Team Name": "Spectacular Stage Productions",
+    "Company Address": "2727 Oak Drive",
+    "Email Address": "info@spectacularstage.com",
+    "Phone Number": "555-678-9012",
+    "Area of Expertise": "Stage Design",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Creates stunning stage setups for events."
+  },
+  {
+    "Company/Team Name": "Glamorous Events Planning",
+    "Company Address": "2929 Pine Lane",
+    "Email Address": "info@glamorousevents.com",
+    "Phone Number": "555-890-1234",
+    "Area of Expertise": "Event Planning",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Offers comprehensive event planning services."
+  },
+  {
+    "Company/Team Name": "Sweet Serenity Spa Services",
+    "Company Address": "3131 Cedar Road",
+    "Email Address": "info@sweetserenityspa.com",
+    "Phone Number": "555-123-4567",
+    "Area of Expertise": "Spa Services",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Provides relaxing spa services for events."
+  },
+  {
+    "Company/Team Name": "Dazzling Dance Performers",
+    "Company Address": "3333 Elm Street",
+    "Email Address": "info@dazzlingdancers.com",
+    "Phone Number": "555-432-1098",
+    "Area of Expertise": "Dance Performances",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Offers captivating dance performances for events."
+  },
+  {
+    "Company/Team Name": "Visual Impact Productions",
+    "Company Address": "3434 Maple Drive",
+    "Email Address": "info@visualimpactpro.com",
+    "Phone Number": "555-678-9012",
+    "Area of Expertise": "Visual Effects",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Specializes in creating visual effects for events."
+  },
+  {
+    "Company/Team Name": "Exquisite Eats Catering",
+    "Company Address": "3535 Oak Avenue",
+    "Email Address": "info@exquisiteeats.com",
+    "Phone Number": "555-210-9876",
+    "Area of Expertise": "Catering",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Provides a wide range of catering options for events."
+  },
+  {
+    "Company/Team Name": "Luxury Lighting Solutions",
+    "Company Address": "3636 Pine Lane",
+    "Email Address": "info@luxurylighting.com",
+    "Phone Number": "555-321-0987",
+    "Area of Expertise": "Lighting Design",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Offers innovative lighting solutions for events."
+  },
+  {
+    "Company/Team Name": "Charming Charm Bracelets",
+    "Company Address": "3737 Cedar Road",
+    "Email Address": "info@charmingcharms.com",
+    "Phone Number": "555-456-7890",
+    "Area of Expertise": "Jewelry Design",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Potential",
+    "Notes": "Creates custom charm bracelets for event giveaways."
+  },
+  {
+    "Company/Team Name": "Marvelous Magic Shows",
+    "Company Address": "3838 Elm Street",
+    "Email Address": "info@marvelousmagic.com",
+    "Phone Number": "555-678-9012",
+    "Area of Expertise": "Magic Shows",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Offers mesmerizing magic shows for events."
+  },
+  {
+    "Company/Team Name": "Elegant Ensemble Musicians",
+    "Company Address": "3939 Maple Avenue",
+    "Email Address": "info@elegantensemble.com",
+    "Phone Number": "555-123-4567",
+    "Area of Expertise": "Musical Performances",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Provides elegant musical performances for events."
+  },
+  {
+    "Company/Team Name": "Artistic Atmosphere Decor",
+    "Company Address": "4040 Oak Avenue",
+    "Email Address": "info@artisticatmosphere.com",
+    "Phone Number": "555-210-9876",
+    "Area of Expertise": "Event Decor",
+    "Preferred Types of Collaboration": "Event-based",
+    "Partnership Status": "Active",
+    "Notes": "Creates unique and artistic event decorations."
+  },
+  {
+    "Company/Team Name": "Sizzling Salsa Dance Company",
+    "Company Address": "4141 Pine Lane",
+    "Email Address": "info@sizzlingsalsa.com",
+    "Phone Number": "555-321-0987",
+    "Area of Expertise": "Dance Performances",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Specializes in energetic salsa dance performances for events."
+  },
+  {
+    "Company/Team Name": "Vivid Visuals Photography",
+    "Company Address": "4242 Cedar Road",
+    "Email Address": "info@vividvisualsphoto.com",
+    "Phone Number": "555-456-7890",
+    "Area of Expertise": "Photography",
+    "Preferred Types of Collaboration": "Regular",
+    "Partnership Status": "Active",
+    "Notes": "Captures vivid and memorable images at events."
+  }
+]

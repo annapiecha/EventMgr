@@ -1,0 +1,184 @@
+[
+  {
+    "Code": "ABCDE1234567890",
+    "Value": 50,
+    "Type": "%",
+    "Exp Date": "2024-05-10",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "FGHIJ6789012345",
+    "Value": 20,
+    "Type": "$",
+    "Exp Date": "2024-05-12",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "KLMNO5432109876",
+    "Value": 10,
+    "Type": "%",
+    "Exp Date": "2024-05-18",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "PQRST0987654321",
+    "Value": 30,
+    "Type": "$",
+    "Exp Date": "2024-05-20",
+    "Usage Limit": "1/1"
+  },
+  {
+    "Code": "UVWXY9876543210",
+    "Value": 15,
+    "Type": "%",
+    "Exp Date": "2024-05-22",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "Z123A456B789C10",
+    "Value": 25,
+    "Type": "$",
+    "Exp Date": "2024-05-25",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "D234E567F890G11",
+    "Value": 40,
+    "Type": "%",
+    "Exp Date": "2024-05-28",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "H345I678J901K12",
+    "Value": 20,
+    "Type": "$",
+    "Exp Date": "2024-06-01",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "L456M789N012O13",
+    "Value": 10,
+    "Type": "%",
+    "Exp Date": "2024-06-05",
+    "Usage Limit": "1/1"
+  },
+  {
+    "Code": "P567Q890R123S14",
+    "Value": 35,
+    "Type": "$",
+    "Exp Date": "2024-06-10",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "T678U901V234W15",
+    "Value": 30,
+    "Type": "%",
+    "Exp Date": "2024-06-15",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "X789Y012Z345A16",
+    "Value": 15,
+    "Type": "$",
+    "Exp Date": "2024-06-20",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "B890C123D456E17",
+    "Value": 25,
+    "Type": "%",
+    "Exp Date": "2024-06-25",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "F901G234H567I18",
+    "Value": 20,
+    "Type": "$",
+    "Exp Date": "2024-06-28",
+    "Usage Limit": "1/1"
+  },
+  {
+    "Code": "J012K345L678M19",
+    "Value": 10,
+    "Type": "%",
+    "Exp Date": "2024-06-30",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "N123O456P789Q20",
+    "Value": 30,
+    "Type": "$",
+    "Exp Date": "2024-07-02",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "R234S567T890U21",
+    "Value": 15,
+    "Type": "%",
+    "Exp Date": "2024-07-05",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "V345W678X901Y22",
+    "Value": 25,
+    "Type": "$",
+    "Exp Date": "2024-07-10",
+    "Usage Limit": "1/1"
+  },
+  {
+    "Code": "Z456A789B012C23",
+    "Value": 40,
+    "Type": "%",
+    "Exp Date": "2024-07-15",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "D567E890F123G24",
+    "Value": 20,
+    "Type": "$",
+    "Exp Date": "2024-07-18",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "H678I901J234K25",
+    "Value": 10,
+    "Type": "%",
+    "Exp Date": "2024-07-22",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "L789M012N345O26",
+    "Value": 35,
+    "Type": "$",
+    "Exp Date": "2024-07-25",
+    "Usage Limit": "1/1"
+  },
+  {
+    "Code": "P901Q234R567S27",
+    "Value": 30,
+    "Type": "%",
+    "Exp Date": "2024-07-28",
+    "Usage Limit": "0/1"
+  },
+  {
+    "Code": "T012U345V678W28",
+    "Value": 15,
+    "Type": "$",
+    "Exp Date": "2024-07-30",
+    "Usage Limit": "1/2"
+  },
+  {
+    "Code": "X123Y456Z789A29",
+    "Value": 25,
+    "Type": "%",
+    "Exp Date": "2024-08-02",
+    "Usage Limit": "2/2"
+  },
+  {
+    "Code": "B234C567D890E30",
+    "Value": 20,
+    "Type": "$",
+    "Exp Date": "2024-08-05",
+    "Usage Limit": "0/1"
+  }
+]

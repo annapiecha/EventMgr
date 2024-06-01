@@ -1,0 +1,23 @@
+.card:hover {
+    background-color: #222b37;
+    border-color: #222b37;
+    color: #1aa3a3;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    height: 100%;
+    --bs-card-title-spacer-y: 0;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-bg: none;
+    --bs-nav-tabs-link-active-color: white;
+    --bs-nav-link-color: #1aa3a3;
+    --bs-body-bg: #222b37;
+}
+
+.nav-link:focus, .nav-link:hover {
+    --bs-nav-link-hover-color: #1aa3a3;
+}
+
+.align-items-center.justify-content-center.row:hover {
+    background-color: #111317;
+}

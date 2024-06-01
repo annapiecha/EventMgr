@@ -1,0 +1,17 @@
+:root, [data-bs-theme=dark] {
+    text-align: center;
+    background-color: #111317;
+    color: #1aa3a3;
+    text-decoration: none;
+    --bs-body-bg: #111317;
+    --bs-body-color: #1aa3a3;
+}
+.container {
+    max-width: 1500px;
+    min-height: 100vh;
+}
+
+.cardRow {
+    justify-content: center;
+    padding: 1rem;
+}

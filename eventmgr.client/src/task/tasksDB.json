@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2024-06-17T12:00:00.000+01:00",
+    "task": "Finalize promotional materials and social media posts",
+    "completed": true
+  },
+  {
+    "date": "2024-06-18T12:00:00.000+01:00",
+    "task": "Coordinate parking with local authorities",
+    "completed": true
+  },
+  {
+    "date": "2024-06-20T16:00:00.000+01:00",
+    "task": "Confirm security and vendor arrangements",
+    "completed": true
+  },
+  {
+    "date": "2024-06-22T19:00:00.000+01:00",
+    "task": "Set up and test technical equipment",
+    "completed": false
+  },
+  {
+    "date": "2024-06-23T10:00:00.000+01:00",
+    "task": "Arrange food truck areas",
+    "completed": true
+  },
+  {
+    "date": "2024-06-24T14:00:00.000+01:00",
+    "task": "Print event schedules and maps",
+    "completed": false
+  },
+  {
+    "date": "2024-06-25T09:00:00.000+01:00",
+    "task": "Coordinate with guest speakers",
+    "completed": true
+  },
+  {
+    "date": "2024-06-26T11:00:00.000+01:00",
+    "task": "Prepare registration materials",
+    "completed": false
+  },
+  {
+    "date": "2024-06-27T15:00:00.000+01:00",
+    "task": "Final walk-through of event space",
+    "completed": false
+  },
+  {
+    "date": "2024-06-28T08:00:00.000+01:00",
+    "task": "Welcome and orientation for staff",
+    "completed": false
+  }
+]

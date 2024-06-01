@@ -1,0 +1,212 @@
+[
+  {
+    "Product ID": 1,
+    "Product Name": "Banquet Tables",
+    "Stock Quantity": 20,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "A1"
+  },
+  {
+    "Product ID": 2,
+    "Product Name": "Banquet Chairs",
+    "Stock Quantity": 30,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "A2"
+  },
+  {
+    "Product ID": 3,
+    "Product Name": "LED Lighting",
+    "Stock Quantity": 10,
+    "Supplier": "LightsRUs",
+    "Storage Location": "B5"
+  },
+  {
+    "Product ID": 4,
+    "Product Name": "Microphones",
+    "Stock Quantity": 15,
+    "Supplier": "AudioTech",
+    "Storage Location": "D3"
+  },
+  {
+    "Product ID": 5,
+    "Product Name": "Table Covers",
+    "Stock Quantity": 25,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "C2"
+  },
+  {
+    "Product ID": 6,
+    "Product Name": "HDMI Cables",
+    "Stock Quantity": 50,
+    "Supplier": "TechInc",
+    "Storage Location": "F10"
+  },
+  {
+    "Product ID": 7,
+    "Product Name": "Air Conditioners",
+    "Stock Quantity": 5,
+    "Supplier": "TechInc",
+    "Storage Location": "B2"
+  },
+  {
+    "Product ID": 8,
+    "Product Name": "Flower Stands",
+    "Stock Quantity": 15,
+    "Supplier": "FloralDesign",
+    "Storage Location": "A6"
+  },
+  {
+    "Product ID": 9,
+    "Product Name": "Wi-Fi Router",
+    "Stock Quantity": 10,
+    "Supplier": "TechInc",
+    "Storage Location": "G5"
+  },
+  {
+    "Product ID": 10,
+    "Product Name": "Projectors",
+    "Stock Quantity": 20,
+    "Supplier": "TechInc",
+    "Storage Location": "E8"
+  },
+  {
+    "Product ID": 11,
+    "Product Name": "Confetti",
+    "Stock Quantity": 30,
+    "Supplier": "PartySupplies",
+    "Storage Location": "E3"
+  },
+  {
+    "Product ID": 12,
+    "Product Name": "Custom Printed T-shirts",
+    "Stock Quantity": 40,
+    "Supplier": "PrintingCompany",
+    "Storage Location": "C7"
+  },
+  {
+    "Product ID": 13,
+    "Product Name": "Wireless Speakers",
+    "Stock Quantity": 10,
+    "Supplier": "AudioTech",
+    "Storage Location": "D9"
+  },
+  {
+    "Product ID": 14,
+    "Product Name": "Mascots",
+    "Stock Quantity": 20,
+    "Supplier": "PartySupplies",
+    "Storage Location": "F6"
+  },
+  {
+    "Product ID": 15,
+    "Product Name": "Chinese Lanterns",
+    "Stock Quantity": 50,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "D4"
+  },
+  {
+    "Product ID": 16,
+    "Product Name": "CDs and DVDs",
+    "Stock Quantity": 100,
+    "Supplier": "TechInc",
+    "Storage Location": "G3"
+  },
+  {
+    "Product ID": 17,
+    "Product Name": "Event Chairs",
+    "Stock Quantity": 15,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "B8"
+  },
+  {
+    "Product ID": 18,
+    "Product Name": "Folding Catering Tables",
+    "Stock Quantity": 10,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "A4"
+  },
+  {
+    "Product ID": 19,
+    "Product Name": "Food Containers",
+    "Stock Quantity": 50,
+    "Supplier": "CateringSupplies",
+    "Storage Location": "C5"
+  },
+  {
+    "Product ID": 20,
+    "Product Name": "Party Tents",
+    "Stock Quantity": 5,
+    "Supplier": "PartyTentsCo",
+    "Storage Location": "F2"
+  },
+  {
+    "Product ID": 21,
+    "Product Name": "High Tables",
+    "Stock Quantity": 20,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "A3"
+  },
+  {
+    "Product ID": 22,
+    "Product Name": "Table Decorations",
+    "Stock Quantity": 30,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "C6"
+  },
+  {
+    "Product ID": 23,
+    "Product Name": "Chair Covers",
+    "Stock Quantity": 30,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "C9"
+  },
+  {
+    "Product ID": 24,
+    "Product Name": "Cups and Glasses",
+    "Stock Quantity": 100,
+    "Supplier": "CateringSupplies",
+    "Storage Location": "C8"
+  },
+  {
+    "Product ID": 25,
+    "Product Name": "Outdoor Heaters",
+    "Stock Quantity": 10,
+    "Supplier": "TechInc",
+    "Storage Location": "F12"
+  },
+  {
+    "Product ID": 26,
+    "Product Name": "Ladders",
+    "Stock Quantity": 5,
+    "Supplier": "TechInc",
+    "Storage Location": "B6"
+  },
+  {
+    "Product ID": 27,
+    "Product Name": "Clothing Racks",
+    "Stock Quantity": 10,
+    "Supplier": "FurnitureCo",
+    "Storage Location": "B3"
+  },
+  {
+    "Product ID": 28,
+    "Product Name": "Dance Floor",
+    "Stock Quantity": 3,
+    "Supplier": "DanceFloorCo",
+    "Storage Location": "E5"
+  },
+  {
+    "Product ID": 29,
+    "Product Name": "Decorative Candles",
+    "Stock Quantity": 50,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "D7"
+  },
+  {
+    "Product ID": 30,
+    "Product Name": "Event Mirrors",
+    "Stock Quantity": 15,
+    "Supplier": "DecorSupplies",
+    "Storage Location": "C4"
+  }
+]

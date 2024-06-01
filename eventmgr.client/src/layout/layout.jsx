@@ -2,6 +2,8 @@
 import { Container, Col, Navbar, Row, Image } from 'react-bootstrap';
 import { Outlet, Link } from 'react-router-dom';
 import { Sidebar } from './sidebar.jsx';
+import { IoSettingsOutline, IoLogOutOutline, IoMenuOutline } from "react-icons/io5";
+
 
 export function Layout() {
     const [showSidebar, setShowSidebar] = useState(false);
@@ -13,37 +15,34 @@ export function Layout() {
     return (
         <div className="app">
             <Container fluid>
-                <Row>
+                <Row className="navbar">
                     <Navbar expand="lg">
                         <Container fluid>
                             <Navbar.Brand>
                                 <Link onClick={toggleSidebar}>
-                                    <Image src="/image/menuwhite2.png" className="navigation" />
+                                    <IoMenuOutline className="navigation" style={{ height: '50px', transform: 'scale(0.7, 1)' }} />
                                 </Link>
                             </Navbar.Brand>
                             <Navbar.Brand>
                                 <Link to="/">
-                                    <Image src="/image/eventmgrwhite.png" className="logo" />
+                                    <Image src="/image/eventmgrwhite.png" className="logo"  />
                                 </Link>
                             </Navbar.Brand>
                             <Col style={{ padding: "0" }} />
                             <Navbar.Brand >
-                                <Link to="/profile"><Image src="/image/accountwhite.png" className="navigation" /></Link>
+                                <Link to="/settings"><IoSettingsOutline className="navigation" style={{ height: '30px' }} /></Link>
                             </Navbar.Brand>
                             <Navbar.Brand >
-                                <Link to="/settings"><Image src="/image/settingswhite.png" className="navigation" /></Link>
-                            </Navbar.Brand>
-                            <Navbar.Brand >
-                                <Link to="/"><Image src="/image/logoffwhite.png" className="navigation" /></Link>
+                                <Link to="/logout"><IoLogOutOutline className="navigation" style={{height:'35px'}} /></Link>
                             </Navbar.Brand>
                         </Container>
                     </Navbar>
                 </Row>
-                <Row>
+                <Row >
                     <Col md={2} className="menucolumn">
                         {showSidebar && <Sidebar />}
                     </Col>
-                    <Col md={showSidebar ? 10 : 12} className={showSidebar ? "outlet-column" : ""}>
+                    <Col md={showSidebar ? 10 : 12} className={showSidebar ? "outlet-shownSidebar" : "outlet-hiddenSidebar"}>
                         <Outlet />
                     </Col>
                 </Row>

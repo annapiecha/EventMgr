@@ -1,26 +1,3 @@
-.layout {
-    display: flex;
-}
 
-.panel {
-    width: 250px; /* Szeroko?? panelu */
-    height: 100vh; /* Wysoko?? panelu na ca?? wysoko?? ekranu */
-    background-color: #333; /* Kolor t?a panelu */
-    transition: transform 0.3s ease; /* Animacja transformacji */
-    transform: translateX(-250px); /* Pocz?tkowa pozycja panelu poza ekranem */
-}
 
-.panel-open {
-    transform: translateX(0); /* Pozycja panelu po otwarciu */
-}
 
-.content {
-    flex: 1; /* Reszta dost?pnej przestrzeni dla zawarto?ci strony */
-}
-
-.toggle-button {
-    position: fixed; /* Umieszczenie przycisku na sta?e na ekranie */
-    top: 20px; /* Odleg?o?? od góry ekranu */
-    left: 20px; /* Odleg?o?? od lewej kraw?dzi ekranu */
-    z-index: 999; /* Wysoki poziom z-index, aby przycisk by? zawsze na wierzchu */
-}

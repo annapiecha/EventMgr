@@ -1,12 +1,11 @@
 ﻿import { Button, Container, Col, Form, Modal, Row, Table } from 'react-bootstrap';
 import item from './itemsDB.json';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaPlus } from "react-icons/fa";
 import { IoTrashBinSharp, IoSettingsOutline } from "react-icons/io5";
 
 
 export const Items = () => {
-
     const [searchTerm, setSearchTerm] = useState('');
     const [confirmation, setConfirmation] = useState("");
 

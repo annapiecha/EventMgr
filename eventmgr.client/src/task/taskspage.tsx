@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+﻿import { useState, useEffect } from "react";
 import { Button, Card, Col, Container, Modal, Row, Tab, Tabs, Form } from 'react-bootstrap';
 import { IoTrashBinSharp, IoSettingsOutline } from "react-icons/io5";
 import moment from "moment";
@@ -131,7 +131,7 @@ export const Tasks = () => {
                 </Row>
                 <Tabs defaultActiveKey="active" id="noanim-tab-example" className="mb-3" >
                     <Tab eventKey="all" title="All">
-                        {DisplayData()}
+                        {DisplayData('all')}
                     </Tab>
                     <Tab eventKey="active" title="Active">
                         {DisplayData('active')}

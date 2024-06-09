@@ -1,11 +1,11 @@
-import React from 'react'
 import SidebarMenu from 'react-bootstrap-sidebar-menu'
+import { Col } from 'react-bootstrap';
 import { MdKeyboardDoubleArrowRight, MdKeyboardDoubleArrowLeft } from "react-icons/md";
 export function Sidebar() {
 
     return (
-        <SidebarMenu >
-            <SidebarMenu.Body className="menu">
+        <SidebarMenu>
+            <SidebarMenu.Body >
                 <SidebarMenu.Nav>
                     <SidebarMenu.Nav.Link href="/visitors">
                         <SidebarMenu.Nav.Icon>

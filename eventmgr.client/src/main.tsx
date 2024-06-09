@@ -1,29 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App.tsx'
 import './index.css'
-import { Layout } from './layout/layout.jsx';
+import { Layout } from './layout/layout.tsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Events } from './event/eventspage.jsx';
-import { Items } from './item/itemspage.jsx';
-import { LogOut } from './user/logout.jsx';
-import { Members } from './member/memberspage.jsx'
-import { Notifications } from './notification/notificationspage.jsx'
-import { Tasks } from './task/taskspage.jsx'
-import { Settings } from './user/settingspage.jsx'
-import { Visitors } from './visitor/visitorspage.jsx'
-import { Vouchers } from './voucher/voucherspage.jsx'
+import { Events } from './event/eventspage.tsx';
+import { Items } from './item/itemspage.tsx';
+import { LogOut } from './user/logout.tsx';
+import { Members } from './member/memberspage.tsx'
+import { Notifications } from './notification/notificationspage.tsx'
+import { Tasks } from './task/taskspage.tsx'
+import { Settings } from './user/settingspage.tsx'
+import { Visitors } from './visitor/visitorspage.tsx'
+import { Vouchers } from './voucher/voucherspage.tsx'
 
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     <React.StrictMode>
-        {/* <RouterProvider router={router} />*/}
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Layout />}>
-                    <Route index element={<App />} />
-                    {/*App.jsx jest podpiety do layoutu*/}
-                </Route>
+                <Route path='/' element={<Layout />}><Route index element={<App />} /></Route>
                 <Route path='/events' element={<Layout />}><Route index element={<Events />} /></Route>
                 <Route path='/items' element={<Layout />}><Route index element={<Items />} /></Route>
                 <Route path='/members' element={<Layout />}><Route index element={<Members />} /></Route>

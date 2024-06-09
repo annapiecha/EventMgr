@@ -33,15 +33,3 @@
 .rbc-day-bg.rbc-off-range-bg {
     background: #222b37;
 }
-
-.custom-datepicker .react-datepicker__navigation {
-    display: none; /* Ukryj przyciski poprzedniego i następnego miesiąca */
-}
-
-.custom-datepicker .react-datepicker__month-container {
-    display: none; /* Ukryj rozwijane pole z miesiącem */
-}
-
-.custom-datepicker .react-datepicker__time-container {
-    width: 100%; /* Ustaw szerokość kontenera czasu na 100% */
-}

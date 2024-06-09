@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Button, Card, Col, Container, Modal, Row } from 'react-bootstrap';
-import moment from 'moment';
-import { FaPlus } from "react-icons/fa";
+import { useState, useEffect } from 'react';
+import { Card, Container, Modal, Row } from 'react-bootstrap';
 import './notificationspage.css';
 import notifications from './notificationsDB.json';
 

@@ -1,6 +1,6 @@
 import './App.css';
 import { Button, Container, Col, Card, Carousel, Form, ListGroup, Modal, Row } from 'react-bootstrap';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import eventsData from './event/eventsDB.json';
 import taskData from './task/tasksDB.json';
 import { Link } from 'react-router-dom';
@@ -264,10 +264,10 @@ function App() {
             {newCustomer()}
             {newMember()}
             {newEvent()}
-            <Row style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
+            <Row style={{ paddingTop: '3rem', paddingBottom: '1rem' }}>
                 {carouselNotifications()}
             </Row>
-            <Row>
+            <Row style={{ paddingBlock: '0' }}>
                 <Col>
                     <Card onClick={handleShowM} style={{cursor: 'pointer' }}>
                         <Card.Text>
@@ -290,7 +290,7 @@ function App() {
                     </Card>
                 </Col>
             </Row>
-            <Row>
+            <Row style={{ paddingBlock: '0' }}>
                 <Col>
                     <Card className="card-incoming" >
                         <Card.Text className="cardtext-incoming">

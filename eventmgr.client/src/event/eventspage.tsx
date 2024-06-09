@@ -1,9 +1,10 @@
-﻿import React, { useState } from 'react';
-import { Button, Col, Container, Modal, Row } from 'react-bootstrap';
+﻿import { useState, useEffect } from 'react';
+import { Button, Card, Col, Container, ListGroup, Modal, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import moment from 'moment';
 import { FaPlus } from "react-icons/fa";
-import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './eventspage.css';
 import data from './eventsDB.json';
 
@@ -15,6 +16,22 @@ export const Events = () => {
         start: new Date(event.start),
         end: new Date(event.end)
     }));
+
+    const [upcomingEvents, setUpcomingEvents] = useState([]);
+    useEffect(() => {
+        const sortedEvents = data.map(event => {
+            return {
+                ...event,
+                start: new Date(event.start)
+            };
+        }).sort((a, b) => a.start - b.start);
+
+        const today = new Date();
+
+        const upcomingEvents = sortedEvents.filter(event => event.start >= today).slice(0, 10);
+
+        setUpcomingEvents(upcomingEvents);
+    }, []);
 
     const [confirmation, setConfirmation] = useState("");
 
@@ -196,26 +213,37 @@ export const Events = () => {
                     </Modal.Footer>
                 </Modal>
             </Row>
-            <Row style={{ paddingTop: '2rem' }}>
-                <Calendar
-                    localizer={localizer}
-                    events={events}
-                    startAccessor="start"
-                    endAccessor="end"
-                    style={{ height: 700 }}
-                    defaultView="month"
-                    views={['month', 'week', 'day']}
-                    onSelectEvent={(data) => handleShowM(data)}
-                    onSelectSlot={(slotInfo) => handleSelectSlot(slotInfo)} 
-                    selectable
-                />
-            </Row>
-            <Row className="justify-content-end" style={{padding: '1rem'} }>
-                <Col className="ml-auto" style={{ flex: '0 0 auto', maxWidth: '225px', paddingRight: '0' }}>
+            <Row >
+                <Col className="ml-auto" style={{ flex: '0 0 auto', maxWidth: '205px', paddingRight: '0' }}>
+                    <Row style={{ paddingInline: '0', paddingBlock: '1rem' }}>
+                        <div style={{ maxHeight: '600px', overflowY: 'auto', borderColor: '#222b37;', borderWidth: '1px', borderStyle: 'solid', paddingRight: '0', paddingLeft:'0'}}>
+                            <ListGroup >
+                                {upcomingEvents.map(event => (
+                                    <ListGroup.Item key={event.title} className="list" >
+                                        {event.start.toLocaleDateString([], { day: '2-digit', month: 'short' })} {event.start.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} - {event.title}
+                                    </ListGroup.Item>
+                                ))}
+                            </ListGroup>
+                        </div>
+                    </Row>
                     <Button onClick={handleShowA} style={{ width: '100%', display: 'flex', alignItems: 'center', fontWeight: '600', justifyContent: 'center' }}>
                         <FaPlus style={{ height: '13px', marginRight: '0.5rem' }} />
                         Add new event
                     </Button>
+                </Col>
+                <Col>
+                    <Calendar
+                        localizer={localizer}
+                        events={events}
+                        startAccessor="start"
+                        endAccessor="end"
+                        style={{ height: 700 }}
+                        defaultView="month"
+                        views={['month', 'week', 'day']}
+                        onSelectEvent={(data) => handleShowM(data)}
+                        onSelectSlot={(slotInfo) => handleSelectSlot(slotInfo)}
+                        selectable
+                    />
                 </Col>
             </Row>
         </Container>

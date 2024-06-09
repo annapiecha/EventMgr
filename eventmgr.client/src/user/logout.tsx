@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+﻿import { useState } from 'react';
 import { Button, Card, Container, Form, Modal, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './settingspage.css';
@@ -6,17 +6,16 @@ import './settingspage.css';
 export const LogOut = () => {
 
     const [smShow, setSmShow] = useState(false);
-    const [selectedNotification, setSelectedNotification] = useState(null);
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => {
         setShow(true);
     };
 
-    const handleCardClick = () => {
-        setSelectedNotification();
-        setSmShow(true);
-    };
+    //const handleCardClick = () => {
+    //    setSelectedNotification();
+    //    setSmShow(true);
+    //};
 
     const [userData, setUserData] = useState({
         username: 'jsmith',
